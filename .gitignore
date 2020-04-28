@@ -1,3 +1,10 @@
+# don't get my config.yaml update
+/token
+/config.yaml
+
+# don't get symlink/copy of base measure
+/measure.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,8 @@
+jenkins:
+    jenkins_secret_path: "/etc/opsani/jenkins/token"
+    jenkins_url: ""
+    jenkins_job: ""
+    jenkins_token: ""
+    jenkins_user: ""
+    jenkins_retry_timeout: 15
+    jenkins_poll_interval: 15
