@@ -2,7 +2,7 @@
 name = "servo-jenkins-trigger"
 version = "0.1.0"
 description = "Opsani Servo plugin for triggering Jenkins (e.g load pipeline)"
-authors = ["Robert Starmer <robert@opsani.com>"]
+authors = ["Robert Starmer <robert@opsani.com>","Fred Sharp <fred@kumul.us>"]
 license = "BSD-3-Clause"
 
 packages = [
@@ -14,7 +14,6 @@ include = ["README.md", "LICENSE"]
 python = "^3.6"
 pyyaml = "^5.3"
 requests = "^2.23"
-python-jenkins = "^1.7"
 jenkinsapi = "^0.3"
 
 [tool.poetry.dev-dependencies]
